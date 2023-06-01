@@ -4,12 +4,12 @@ web:
   image: spring-petclinic
   tag: latest
   port: 8080
-  replicas: 3
+  replicas: 6
 mysql:
   appname: spring-mysql
   image: cytopia/mysql-5.7
   port: 3306
-  replicas: 3
+  replicas: 6
   env:
     root_password: 1234
     allow_empty_password: true
