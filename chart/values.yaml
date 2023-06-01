@@ -1,6 +1,6 @@
 web:
   appname: spring-petclinic
-  repo: avioralmalem
+  repo: elevy99927
   image: spring-petclinic
   tag: latest
   port: 8080
